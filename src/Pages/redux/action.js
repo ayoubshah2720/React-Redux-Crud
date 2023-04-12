@@ -21,7 +21,7 @@ const productDeleted = () => ({
 })
 
 const productAdded = () => ({
-    type: types.DELETE_PRODUCT
+    type: types.ADD_PRODUCT
 })
 
 export const loadProducts = () => {
